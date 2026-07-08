@@ -1,7 +1,5 @@
-# URL_SHORTNER
-A full-stack URL Shortener built with Flask, PostgreSQL, and JavaScript. Features Base62 encoding, REST APIs, LRU caching, click analytics, and a responsive frontend for efficient URL shortening and redirection.
 
-# 🔗 URL Shortener
+#  URL Shortener
 
 A full-stack URL Shortener built using **Flask**, **PostgreSQL**, and **JavaScript**. The application allows users to shorten long URLs, redirect using short links, and track click statistics. It also uses an **LRU Cache** to improve redirect performance.
 
