@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>URL Shortener</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="card">
+
+<h1>🔗 URL Shortener</h1>
+
+<p class="subtitle">
+Fast • Secure • Simple URL Shortening
+</p>
+
+<input
+type="text"
+id="urlInput"
+placeholder=" Enter Long URL">
+
+<button id="shortenBtn">
+Shorten URL
+</button>
+
+<div id="loading" class="hidden">
+
+<div class="loader"></div>
+
+<p>Generating Short URL...</p>
+
+</div>
+
+<div id="result" class="hidden">
+
+<h2> URL Generated</h2>
+
+<input
+type="text"
+id="shortUrl"
+readonly>
+
+<div class="buttons">
+
+<button id="copyBtn">
+Copy
+</button>
+
+<button id="openBtn">
+Open
+</button>
+
+</div>
+
+</div>
+
+<footer>
+
+Made with using Flask + PostgreSQL
+
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
